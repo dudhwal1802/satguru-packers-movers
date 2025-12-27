@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-secondary-foreground/10 text-center">
+        <div className="pt-8 pb-[calc(6rem+env(safe-area-inset-bottom))] md:pb-0 border-t border-secondary-foreground/10 text-center">
           <p className="text-secondary-foreground/60 text-sm">
             © {currentYear} Satguru Packers and Movers. {t("allRightsReserved")}
           </p>
