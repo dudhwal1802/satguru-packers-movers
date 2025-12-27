@@ -26,13 +26,13 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <a href="#home" className="flex items-center gap-2 group">
+            <a href="#home" className="flex items-center gap-2 group min-w-0">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl gradient-accent flex items-center justify-center shadow-soft group-hover:scale-110 transition-transform">
                 <LogoMark className="w-5 h-5 md:w-6 md:h-6 text-foreground" />
               </div>
-              <div className="flex flex-col">
-                <span className="text-sm md:text-lg font-bold text-foreground leading-tight">Satguru</span>
-                <span className="text-xs md:text-sm text-primary font-medium leading-tight">Packers & Movers</span>
+              <div className="flex flex-col min-w-0">
+                <span className="text-sm md:text-lg font-bold text-foreground leading-tight truncate">Satguru</span>
+                <span className="text-xs md:text-sm text-primary font-medium leading-tight truncate">Packers & Movers</span>
               </div>
             </a>
 
