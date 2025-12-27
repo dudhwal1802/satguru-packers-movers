@@ -1,0 +1,22 @@
+import * as React from "react";
+
+type LogoMarkProps = React.SVGProps<SVGSVGElement>;
+
+const LogoMark = ({ className, ...props }: LogoMarkProps) => (
+  <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className={className} {...props}>
+    <path
+      fill="currentColor"
+      d="M18 37h21c2.8 0 5-2.2 5-5v-9c0-2.8-2.2-5-5-5H18c-2.8 0-5 2.2-5 5v9c0 2.8 2.2 5 5 5Zm-1-14c0-.6.4-1 1-1h21c.6 0 1 .4 1 1v9c0 .6-.4 1-1 1H18c-.6 0-1-.4-1-1v-9Z"
+    />
+    <path
+      fill="currentColor"
+      d="M46 27h4.5c1.7 0 3.2 1 3.8 2.6l1.5 4.1c.1.3.2.7.2 1.1V37c0 1.1-.9 2-2 2h-2.4a5.6 5.6 0 0 1-10.9 0H26.3a5.6 5.6 0 0 1-10.9 0H12c-1.1 0-2-.9-2-2v-2c0-1.1.9-2 2-2h34v-4c0-1.1.9-2 2-2Zm0 6h6.9l-1-2.6c-.1-.3-.5-.4-.8-.4H46v3Z"
+    />
+    <path
+      fill="currentColor"
+      d="M20.8 44.5a2.7 2.7 0 1 0 0-5.4 2.7 2.7 0 0 0 0 5.4Zm25.4 0a2.7 2.7 0 1 0 0-5.4 2.7 2.7 0 0 0 0 5.4Z"
+    />
+  </svg>
+);
+
+export default LogoMark;

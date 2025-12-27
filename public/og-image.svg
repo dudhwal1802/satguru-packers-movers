@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Satguru Packers and Movers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="220" fill="#ffffff" opacity="0.05"/>
+  <circle cx="140" cy="540" r="260" fill="#ffffff" opacity="0.05"/>
+
+  <rect x="80" y="120" width="1040" height="390" rx="36" fill="url(#accent)" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- Truck mark (matches favicon/logo mark style) -->
+  <g transform="translate(120 190)" fill="#ffffff" opacity="0.95">
+    <path d="M28 144h168c18 0 32-14 32-32V72c0-18-14-32-32-32H28C10 40-4 54-4 72v40c0 18 14 32 32 32Z"/>
+    <path d="M236 80h58c14 0 26 8 31 21l12 33c2 5 3 10 3 16v12c0 10-8 18-18 18h-22a42 42 0 0 1-82 0H110a42 42 0 0 1-82 0H2c-10 0-18-8-18-18v-12c0-10 8-18 18-18h234V80Zm0 36h81l-7-20c-2-6-8-10-15-10h-59v30Z"/>
+    <circle cx="74" cy="200" r="18"/>
+    <circle cx="254" cy="200" r="18"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" fill="#ffffff">
+    <text x="440" y="265" font-size="56" font-weight="800">Satguru Packers &amp; Movers</text>
+    <text x="440" y="330" font-size="28" opacity="0.9">Trusted relocation partner in Nashik, Maharashtra</text>
+    <text x="440" y="385" font-size="24" opacity="0.75">Home • Office • Vehicle Transport • Packing</text>
+    <text x="440" y="455" font-size="22" opacity="0.75">Call: +91 73853 14953  |  WhatsApp: +91 82095 05353</text>
+  </g>
+</svg>
