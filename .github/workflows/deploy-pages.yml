@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
 
+# Note: This workflow deploys the Vite build to GitHub Pages.
+
 on:
   push:
     branches: ["main"]
